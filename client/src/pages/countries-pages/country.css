@@ -1,0 +1,150 @@
+/* Container for the entire destinations section */
+.destinationContainer {
+    padding: 30px;
+    background-color: #f5f5f5;
+  }
+  
+  /* Grid container to handle the layout */
+  .destinationContainer .MuiGrid-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  /* Styling for each destination card */
+  .destinationCard {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+  }
+  
+  /* Hover effect for cards */
+  .destinationCard:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Styling for the images */
+  .destinationImage {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
+  /* Title styling */
+  .destinationTitle {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 15px;
+  }
+  
+  /* Button styles */
+  .destinationButton {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Edit button styling */
+  .editButton {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .editButton:hover {
+    background-color: #45a049;
+  }
+  
+  /* Delete button styling */
+  .deleteButton {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .deleteButton:hover {
+    background-color: #e53935;
+  }
+  
+  /* Loading spinner */
+  .loadingSpinner {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  /* Responsive design for small screens */
+  @media (max-width: 768px) {
+    .destinationContainer .MuiGrid-item {
+      flex-basis: 100%;
+      max-width: 100%;
+    }
+  }
+  
+
+
+  /*Edit country*/
+  /* Add the basic styles for the container and form */
+.gridContainer {
+  padding: 20px;
+}
+
+/* Styling for the preview section */
+.previewContainer {
+  background-color: #f5f5f5;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.previewContent {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+/* Editor styles */
+.editorContainer {
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.formField {
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.editorBox {
+  margin-bottom: 20px;
+}
+
+.editorContent {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  padding: 10px;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+/* Add responsive design as needed */
+@media (max-width: 768px) {
+  .gridContainer {
+    flex-direction: column;
+  }
+}

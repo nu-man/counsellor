@@ -1,0 +1,115 @@
+/*All blogs styles*/
+
+
+/* Blogs.css */
+
+/* Blog container */
+.blogContainer {
+    padding: 16px;
+  }
+  
+  /* Blog card */
+  .blogCard {
+    border: 1px solid #ddd;
+    padding: 16px;
+    border-radius: 8px;
+    background-color: #fff;
+  }
+  
+  /* Blog image */
+  .blogImage {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  /* Blog title */
+  .blogTitle {
+    margin: 16px 0;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  /* Button styles */
+  .blogButton {
+    padding: 8px 16px;
+    margin-right: 8px;
+    cursor: pointer;
+  }
+  
+  .deleteButton {
+    background-color: red;
+    color: white;
+    border: none;
+  }
+  
+  .editButton {
+    background-color: rgb(97, 97, 188);
+    color: white;
+    border: none;
+  }
+  
+
+
+/* EditBlog.css */
+
+/* Grid Container */
+.gridContainer {
+    padding: 20px;
+  }
+  
+  /* Left side preview */
+  .previewContainer {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    height: 100%;
+  }
+  
+  /* Preview content box */
+  .previewContent {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #fff;
+    min-height: 300px;
+    overflow-y: auto;
+  }
+  
+  /* Right side editor */
+  .editorContainer {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Title and labels */
+  .title {
+    margin-bottom: 20px;
+  }
+  
+  .formField {
+    margin-bottom: 15px;
+  }
+  
+  .editorBox {
+    margin-bottom: 20px;
+  }
+  
+  .editorContent {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    min-height: 150px;
+    white-space: pre-wrap;
+    word-break: break-word;
+  }
+  
+  .buttonContainer {
+    display: flex;
+    justify-content: space-between;
+  }
+  
